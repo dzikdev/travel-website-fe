@@ -19,7 +19,7 @@ export const NavBar = () => {
 
   const menuElements: JSX.Element[] = []
   menu.forEach((items) => {
-    menuElements.push(<a href={items.url} className="h-[30px] flex justify-center items-center px-2 py-2 text-sm font-medium text-black hover:text-gray-400">{items.label}</a>)
+    menuElements.push(<a href={items.url} className="h-[30px] flex justify-center items-center px-2 py-2 text-sm font-medium text-black hover:text-gray-400 ">{items.label}</a>)
   })
 
   return (

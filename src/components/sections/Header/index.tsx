@@ -5,7 +5,7 @@ import './index.css'
 
 export const Header = () => {
   return(
-    <div className="header flex flex-wrap bg-no-repeat bg-right-top h-screen" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div className="header flex flex-wrap bg-no-repeat bg-right-top" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <NavBar />
       <JumboTron />
     </div>
